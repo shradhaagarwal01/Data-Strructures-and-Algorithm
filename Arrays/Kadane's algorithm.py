@@ -13,8 +13,6 @@ def maxSubArraySum(arr,n):
 
 
 import math
-
- 
 def main():
         T=int(input())
         while(T>0):
