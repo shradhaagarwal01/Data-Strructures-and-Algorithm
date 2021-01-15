@@ -21,4 +21,4 @@ def maxProfit(price, n):
 
 # Driver function 
 price = [2, 30, 15, 10, 8, 25, 80]
-print "Maximum profit is", maxProfit(price, len(price)) 
+print("Maximum profit is", maxProfit(price, len(price)))
