@@ -26,15 +26,12 @@ def detectAndRemoveLoop(head):
             break
     if slow!=fast:
         return None
-    if fast==head:
-        return slow
-    else:
-        slow = head
-        while(slow.next!=fast.next):
-            slow = slow.next
-            fast = fast.next
-        fast.next = None
-        return slow
+    slow = head
+    while(slow.next!=fast.next):
+        slow = slow.next
+        fast = fast.next
+    fast.next = None
+    return slow.next
 
 if __name__=='__main__':
     head = newNode(50)
