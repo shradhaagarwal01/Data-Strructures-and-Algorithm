@@ -84,3 +84,9 @@ This repository contains famous interview questions and algorithms.
   * [Check-Tree-Traversal.py](./Data-Structures/Trees/Check-Tree-Traversal.py)
 * [Two-pointers/](./Data-Structures/Two-pointers)
   * [Dam-of-Candies.py](./Data-Structures/Two-pointers/Dam-of-Candies.py)
+
+
+## Contribution
+
+You can create a pull request if you think, you have a better solution with respect to complexities. 
+For any other changes or queries, feel free to reach out to me.
